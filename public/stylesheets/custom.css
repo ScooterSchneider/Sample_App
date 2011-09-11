@@ -5,12 +5,15 @@
 body{
 	background: #acc;
 }
+
 header{
 	padding-top: 20px;
 }
+
 header img{
 	padding:1em;
 	background: #acc;
+	height: 15%;
 }
 
 section{
@@ -78,6 +81,18 @@ a.signup_button {
 /*Round Corners*/
 .round {
 	-moz-border-radius: 10px;
-	.round {
-	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; 
 }
+
+/*Footer*/
+footer {
+	text-align: center;
+	margin-top: 10px; 
+	width: 710px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+footer nav { float: none;
+}
+
